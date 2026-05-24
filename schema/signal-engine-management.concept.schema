@@ -1,0 +1,33 @@
+{}
+
+[
+  (Lifecycle [Announce Ready Stop])
+  (Health [Report])
+  (Spawn [Envelope])
+]
+
+[]
+
+[]
+
+{
+  Lifecycle [(Announce Announce) (Ready Ready) (Stop Stop)]
+  Health [(Report Report)]
+  Spawn [(Envelope Envelope)]
+  Announce (ComponentName)
+  Ready (ComponentName)
+  Stop (ComponentName)
+  Report (Text)
+  Envelope (Text)
+  ComponentName (String)
+  Text (String)
+  Identifier (u64)
+  Name (String)
+  Path (String)
+  Status [Concept Active Retired]
+}
+
+[
+  (Version 0 1)
+  (Status Concept)
+]
